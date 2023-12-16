@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mike Tyson - Tribute</title>
+        <!-- enlazo el .css del estilo -->
+        <link rel="stylesheet" href="./css/miketyson.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <script src="./js/miketyson.js"></script>
+    </head>
+    <body>
+        <!-- la estructura del layout en scroll-->
+        <div id="wrapper">
+            <!-- contenedor general -->
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="#" class="active">Inicio</a>
+                    <a href="#intro">Introduccion</a>
+                    <a href="#vida">Vida</a>
+                    <a href="#logros">Logros</a>
+                    <a href="#legado">Legado</a>
+                    <a href="#actualidad">Actualidad</a>
+                    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <!-- obligatoria-->
+            <a href="#">
+                <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+            </a>
+            <section id="hero">
+                <!-- cuasi obligatoria-->
+                <a href="#intro">
+                    <button>U are not man enough</button>
+                </a>
+            </section>
+            <!-- INTRO SECTION -->
+            <section id="intro">
+                <!-- aqui podría poner un título o lo que fuera independientemente de las columnas-->
+                <h1 class="title">INTRODUCCION</h1>
+                <div class="grid-2">
+                    <!-- Contenedor del grid de 2-->
+                    <div class="card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <!-- Contenido de la parte frontal de la tarjeta (puede ser una imagen) -->
+                                <img src="./img/miketyson.jpg" alt="Imagen frontal">
+                            </div>
+                            <div class="card-back">
+                                <!-- Contenido de la parte trasera de la tarjeta -->
+                                <img src="./img/miketysonjoven.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <p>Bienvenidos al homenaje de una leyenda del boxeo, Mike Tyson. Apodado "Iron Mike" y conocido por su fuerza bruta, estilo agresivo y determinación en el ring, Tyson superó un pasado tumultuoso para convertirse en uno de los nombres más reconocidos en el boxeo mundial. Nacido el 30 de junio de 1966 en Brooklyn, Nueva York, Mike Tyson se destacó rápidamente en el mundo del boxeo por su poder y velocidad, convirtiéndose en el campeón mundial de peso pesado más joven de la historia a los 20 años.</p>
+                        <button id="readmore" onclick="showMore()">Read More</button>
+                        <div id="moreText" style="display:none;">A pesar de enfrentar desafíos tanto dentro como fuera del ring, Tyson mantuvo una presencia imponente en el boxeo. Sus peleas generaban expectación mundial, y su estilo feroz, junto con una serie de nocauts espectaculares, solidificó su fama. No solo influyó en la categoría de los pesos pesados, sino que también dejó una huella indeleble en la cultura popular, con apariciones en películas y programas de televisión, convirtiéndose en un ícono reconocible más allá del deporte.
+                </div>
+                    </div>
+                </div>
+                <section id="secciones">
+                    <div class="accordion">
+                        <article id="vida">
+                            <input id="article1" type="radio" name="articles">
+                            <label for="article1">
+                                <h2>
+                                    <div class="TituloSection">Vida</div>
+                                </h2>
+                            </label>
+                            <div class="divArticule">
+                                <div class="textoArticule">
+                                    <p>Originario de Brooklyn, Nueva York, Mike Tyson surgió de un entorno desafiante para forjarse como uno de los púgiles más emblemáticos a nivel mundial. Su travesía profesional tuvo su punto de partida en un primer encuentro que sería determinante en su carrera. Fue un momento crucial que marcó el inicio de su ascenso meteórico en el mundo del boxeo.</p>
+                                    <p>El debut profesional de Tyson se llevó a cabo con una intensidad palpable y un aura de anticipación que rodeaba el ring. La audiencia estaba ávida de presenciar la destreza de este joven prodigio, cuya reputación ya se había esparcido como fuego en un campo seco. La velada fue un despliegue de habilidades impresionantes y una demostración de fuerza bruta, características que se convertirían en sellos distintivos de su estilo.</p>
+                                    <p>Este primer encuentro no solo fue una exhibición de habilidades técnicas y fuerza física, sino también un vistazo a la mentalidad ferozmente competitiva que definiría la carrera de Tyson en los años venideros. Su victoria resonó no solo en el cuadrilátero, sino también en el mundo del boxeo, anunciando la llegada de un talento excepcional que pronto se convertiría en el rostro de este deporte.</p>
+                                    <p>La controversia también se tejió en los primeros capítulos de su carrera, con desafíos y obstáculos que surgieron a la par de sus triunfos. Este primer encuentro profesional sirvió como el punto de partida de una trayectoria llena de altibajos, donde Tyson no solo enfrentaría a oponentes en el ring, sino también a los demonios internos y las controversias mediáticas que se convertirían en elementos inseparables de su legado.</p>
+                                    <p>Así, aquel día en que Mike Tyson dio sus primeros pasos en el mundo profesional del boxeo se convirtió en un hito, un momento fundacional que dejó una marca indeleble en la historia del deporte. Su historia, iniciada en las calles desafiantes de Brooklyn, encontró su primer capítulo profesional en ese cuadrilátero, marcando el inicio de una carrera que sería tan impactante como la vida del hombre que la vivió.</p>
+                                </div>
+                                <div class="mediaArticule">
+                                    <button class="buttonArticule">
+                                        <a target="_blank" href="https://www.youtube.com/embed/I-WfMZRuq9g?si=oZe9OoQHy3ZCElL1">ver video</a>
+                                    </button>
+                                    <iframe class="videoArticule" src="https://www.youtube.com/embed/I-WfMZRuq9g?si=oZe9OoQHy3ZCElL1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="logros">
+                            <input id="article2" type="radio" name="articles">
+                            <label for="article2">
+                                <h2>
+                                    <div class="TituloSection">Logros</div>
+                                </h2>
+                            </label>
+                            <div class="divArticule">
+                                <div class="textoArticule">
+                                    <p>Mike Tyson, una leyenda en el mundo del boxeo, se destacó por su extraordinaria fuerza y velocidad en el ring, atributos que lo llevaron a convertirse en el campeón mundial de los pesos pesados más joven de la historia a la impresionante edad de 20 años. Este logro, por sí solo, estableció un hito notable en la historia del boxeo y consolidó a Tyson como una figura icónica en el deporte.</p>
+                                    <p>A lo largo de su carrera, Tyson acumuló una serie de victorias notables que lo catapultaron hacia la cima de la élite del boxeo. No solo se trató de su juventud sin precedentes en la obtención del título mundial, sino también de su dominio continuo en el ring, respaldado por una serie de títulos mundiales en la categoría de pesos pesados. Su destreza técnica, combinada con una capacidad impresionante para propinar nocauts, lo convirtió en una fuerza imparable y en un referente para generaciones futuras de boxeadores.</p>
+                                    <p>Los múltiples títulos mundiales que Tyson conquistó a lo largo de su carrera destacan su habilidad para mantenerse en la cima de su juego, enfrentándose a algunos de los oponentes más formidables en la historia del boxeo. Cada victoria no solo representaba un triunfo personal para Tyson, sino que también contribuía a su legado como una de las figuras más prominentes y respetadas en el mundo del boxeo.</p>
+                                    <p>Además, la capacidad de Tyson para lograr una serie de nocauts impactantes consolidó su reputación como un verdadero devastador en el cuadrilátero. Sus poderosos golpes y su enfoque agresivo le valieron un lugar en la memoria colectiva de los fanáticos del boxeo, marcando una época en la que su presencia en el ring era sinónimo de emoción y expectación.</p>
+                                    <p>En resumen, la carrera de Mike Tyson está marcada por una serie de logros extraordinarios que van más allá de su título como el campeón mundial de los pesos pesados más joven. Su impacto en el mundo del boxeo y su legado perduran como testimonio de su habilidad inigualable, su valentía en el cuadrilátero y su contribución significativa a la historia del deporte.</p>
+                                </div>
+                                <div class="mediaArticule">
+                                    <button class="buttonArticule">
+                                        <a target="_blank" href="https://www.youtube.com/embed/28L4PRl-eEw?si=_w1On9LyBDdo6jjF">ver video</a>
+                                    </button>
+                                    <iframe class="videoArticule" src="https://www.youtube.com/embed/28L4PRl-eEw?si=_w1On9LyBDdo6jjF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="legado">
+                            <input id="article3" type="radio" name="articles">
+                            <label for="article3">
+                                <h2>
+                                    <div class="TituloSection">Legado</div>
+                                </h2>
+                            </label>
+                            <div class="divArticule">
+                                <div class="textoArticule">
+                                    <p>El legado de Mike Tyson trasciende el deporte del boxeo. Conocido por su estilo de lucha feroz y su personalidad carismática, Tyson ha dejado una marca indeleble en la cultura popular. Su influencia se extiende más allá del ring, abarcando su trabajo en cine, televisión y sus esfuerzos filantrópicos.</p>
+                                    <p>Su incursión en el mundo del cine y la televisión ha ampliado su presencia y ha llevado su carisma a nuevas audiencias. A lo largo de los años, Tyson ha participado en proyectos cinematográficos y programas de televisión, demostrando su versatilidad más allá de los límites del cuadrilátero. Su capacidad para cautivar a la audiencia no solo en el ring, sino también en la pantalla, ha contribuido significativamente a su legado duradero.</p>
+                                    <p>Además de su éxito en el entretenimiento, Mike Tyson ha canalizado su influencia hacia el ámbito filantrópico. Sus esfuerzos para hacer del mundo un lugar mejor han sido evidentes a través de diversas iniciativas y obras benéficas. Tyson ha utilizado su prominencia para abogar por causas sociales y contribuir a organizaciones benéficas, destacando su compromiso con la responsabilidad social y el bienestar de los demás.</p>
+                                    <p>El impacto cultural de Mike Tyson es innegable, y su legado continúa resonando en la sociedad actual. Su capacidad para trascender las barreras del deporte y conectarse con personas de diversas esferas de la vida demuestra el alcance duradero de su influencia. Tyson no solo es recordado como un campeón en el ring, sino también como una figura que ha dejado una huella perdurable en la cultura, el entretenimiento y la filantropía. Su legado perdurará como testimonio de su impacto integral en el mundo que va más allá de sus habilidades pugilísticas.</p>
+                                </div>
+                                <div class="mediaArticule">
+                                    <button class="buttonArticule">
+                                        <a target="_blank" href="https://www.youtube.com/embed/seuzyjzTzVw?si=9ToPW3asaqZ_Hh1w">ver video</a>
+                                    </button>
+                                    <iframe class="videoArticule" src="https://www.youtube.com/embed/seuzyjzTzVw?si=9ToPW3asaqZ_Hh1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </article>
+                        <article id="Actualidad">
+                            <input id="article4" type="radio" name="articles">
+                            <label for="article4">
+                                <h2>
+                                    <div class="TituloSection">Actualidad</div>
+                                </h2>
+                            </label>
+                            <div class="divArticule">
+                                <div class="textoArticule">
+                                    <p>Mike Tyson ha logrado mantenerse como una figura destacada en la actualidad, no solo por sus logros en el mundo del deporte, sino también por sus diversas actividades fuera del ring. Su presencia en los medios de comunicación sigue siendo notable, participando en entrevistas, programas de televisión y eventos relacionados con el deporte.
+                            </p>
+                                    <p>Además de su presencia mediática, Tyson ha incursionado con éxito en el ámbito empresarial. Ha emprendido proyectos empresariales que van más allá de su carrera como boxeador, demostrando su habilidad para diversificarse. Estos proyectos no solo reflejan su astucia comercial, sino también su capacidad para adaptarse a diferentes facetas de la vida después del boxeo.
+                            </p>
+                                    <p>Sin embargo, lo que destaca aún más es la evolución personal de Mike Tyson. A lo largo de los años, ha demostrado un lado más reflexivo y maduro de su personalidad. Sus entrevistas y declaraciones muestran una profunda introspección sobre su vida, sus errores pasados y el viaje que ha emprendido para convertirse en una mejor versión de sí mismo.
+                            </p>
+                                    <p>Además de sus éxitos profesionales, Tyson ha mantenido un compromiso constante con iniciativas benéficas. Su participación en proyectos de caridad evidencia su deseo de hacer una diferencia positiva en la sociedad y devolver a la comunidad. Esta faceta filantrópica contribuye a la construcción de una imagen más completa y redentora de Mike Tyson, mostrando que su impacto va más allá del ámbito deportivo.
+                            </p>
+                                    <p>En resumen, la actualidad de Mike Tyson se caracteriza por una presencia continua en los medios, proyectos empresariales exitosos y un compromiso evidente con causas benéficas. Su evolución personal y su capacidad para adaptarse a diferentes roles en la sociedad lo mantienen como una figura influyente y respetada en el mundo actual.
+                            </p>
+                                </div>
+                                <div class="mediaArticule">
+                                    <button class="buttonArticule">
+                                        <a target="_blank" href="https://www.youtube.com/embed/7MNv4_rTkfU?si=NrT52zqsRBZ6903-">ver video</a>
+                                    </button>
+                                    <iframe class="videoArticule" src="https://www.youtube.com/embed/7MNv4_rTkfU?si=NrT52zqsRBZ6903-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section id="galeria">
+                    <h2 id="titGaleria">Galería de Fotos</h2>
+                    <div class="gallery">
+                        <!-- Aquí puedes agregar tus imágenes -->
+                        <img src="./img/foto1.jpg" alt="Mike Tyson Photo 1">
+                        <img src="./img/foto2.jpg" alt="Mike Tyson Photo 2">
+                        <img src="./img/foto3.jpg" alt="Mike Tyson Photo 3">
+                        <img src="./img/foto4.jpg" alt="Mike Tyson Photo 4">
+                        <img src="./img/foto5.jpg" alt="Mike Tyson Photo 5">
+                        <img src="./img/foto6.jpg" alt="Mike Tyson Photo 6">
+                        <img src="./img/foto7.jpg" alt="Mike Tyson Photo 7">
+                        <img src="./img/foto8.jpg" alt="Mike Tyson Photo 8">
+                        <!-- Agrega más imágenes según sea necesario -->
+                    </div>
+                </section>
+                <footer>
+                    <div class="col-4  nav-footer">
+                        <h3>NavBar Vertical</h3>
+                        <a href="#" class="active">Inicio</a>
+                        <a href="#intro">Introduccion</a>
+                        <a href="#vida">Vida</a>
+                        <a href="#logros">Logros</a>
+                        <a href="#legado">Legado</a>
+                        <a href="#actualidad">Actualidad</a>
+                    </div>
+                    <div class="col-4">
+                        <h3>Sigueme en redes</h3>
+                        <div class="social-icons">
+                            <a href="https://wa.link/l1d7uh" target="_blank">
+                                <img src="./img/whatsapp-icon-logo-svgrepo-com.svg" alt="whatsapp">
+                            </a>
+                            <a href="https://www.instagram.com/manuelfesta_/" target="_blank">
+                                <img id="insta" src="./img/instagram-1-svgrepo-com.svg" alt="insta">
+                            </a>
+                            <a href="https://github.com/ManuFes" target="_blank">
+                                <img src="./img/github-142-svgrepo-com.svg" alt="github">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <h3>Creditos</h3>
+                        <div>
+                            todas las fotos son de esta pagina 
+                            <button>
+                                <a class="link-fotos" href="https://wallpapercave.com/mike-tyson-4k-wallpapers#google_vignette" target="_blank">https://wallpapercave.com/mike-tyson-4k-wallpapers#google_vignette</a>
+                            </button>
+                        </div>
+                    </div>
+                </footer>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
